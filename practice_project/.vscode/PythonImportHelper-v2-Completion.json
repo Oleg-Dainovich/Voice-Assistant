@@ -1,0 +1,385 @@
+[
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "webbrowser",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "webbrowser",
+        "description": "webbrowser",
+        "detail": "webbrowser",
+        "documentation": {}
+    },
+    {
+        "label": "pyttsx3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyttsx3",
+        "description": "pyttsx3",
+        "detail": "pyttsx3",
+        "documentation": {}
+    },
+    {
+        "label": "speech_recognition",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "speech_recognition",
+        "description": "speech_recognition",
+        "detail": "speech_recognition",
+        "documentation": {}
+    },
+    {
+        "label": "pyaudio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyaudio",
+        "description": "pyaudio",
+        "detail": "pyaudio",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "fuzz",
+        "importPath": "fuzzywuzzy",
+        "description": "fuzzywuzzy",
+        "isExtraImport": true,
+        "detail": "fuzzywuzzy",
+        "documentation": {}
+    },
+    {
+        "label": "Translator",
+        "importPath": "googletrans",
+        "description": "googletrans",
+        "isExtraImport": true,
+        "detail": "googletrans",
+        "documentation": {}
+    },
+    {
+        "label": "transliterate",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "transliterate",
+        "description": "transliterate",
+        "detail": "transliterate",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "urllib.request",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.request",
+        "description": "urllib.request",
+        "detail": "urllib.request",
+        "documentation": {}
+    },
+    {
+        "label": "urllib3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib3",
+        "description": "urllib3",
+        "detail": "urllib3",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "ctypes",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ctypes",
+        "description": "ctypes",
+        "detail": "ctypes",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "PySide2",
+        "description": "PySide2",
+        "isExtraImport": true,
+        "detail": "PySide2",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "newgui",
+        "description": "newgui",
+        "isExtraImport": true,
+        "detail": "newgui",
+        "documentation": {}
+    },
+    {
+        "label": "QMovie",
+        "importPath": "PySide2.QtGui",
+        "description": "PySide2.QtGui",
+        "isExtraImport": true,
+        "detail": "PySide2.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "PySide2.QtGui",
+        "description": "PySide2.QtGui",
+        "isExtraImport": true,
+        "detail": "PySide2.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "PyQt5.QtCore",
+        "description": "PyQt5.QtCore",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "functions",
+        "description": "functions",
+        "isExtraImport": true,
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "def_window",
+        "importPath": "functions",
+        "description": "functions",
+        "isExtraImport": true,
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "PySide2.QtCore",
+        "description": "PySide2.QtCore",
+        "isExtraImport": true,
+        "detail": "PySide2.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "PySide2.QtWidgets",
+        "description": "PySide2.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PySide2.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "def_window",
+        "kind": 2,
+        "importPath": "functions",
+        "description": "functions",
+        "peekOfCode": "def def_window(win):\n    global window\n    window = win\ndef write_text(text):\n    window.ui.voiceRecText.insertPlainText(text + '\\n')\ndef make_it_say(words):\n    engine = pyttsx3.init()\n    engine.say(words)\n    engine.runAndWait()\n# речь голосового помощника",
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "write_text",
+        "kind": 2,
+        "importPath": "functions",
+        "description": "functions",
+        "peekOfCode": "def write_text(text):\n    window.ui.voiceRecText.insertPlainText(text + '\\n')\ndef make_it_say(words):\n    engine = pyttsx3.init()\n    engine.say(words)\n    engine.runAndWait()\n# речь голосового помощника\ndef bot_talk(words):\n    write_text(words)\n    engine = pyttsx3.init()",
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "make_it_say",
+        "kind": 2,
+        "importPath": "functions",
+        "description": "functions",
+        "peekOfCode": "def make_it_say(words):\n    engine = pyttsx3.init()\n    engine.say(words)\n    engine.runAndWait()\n# речь голосового помощника\ndef bot_talk(words):\n    write_text(words)\n    engine = pyttsx3.init()\n    engine.say(words)\n    engine.runAndWait()",
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "bot_talk",
+        "kind": 2,
+        "importPath": "functions",
+        "description": "functions",
+        "peekOfCode": "def bot_talk(words):\n    write_text(words)\n    engine = pyttsx3.init()\n    engine.say(words)\n    engine.runAndWait()\n# функция прослушивания пользователя и вызова функций\ndef user_speech():\n    r = speech_rec.Recognizer()\n    while True:\n        with speech_rec.Microphone() as source:",
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "user_speech",
+        "kind": 2,
+        "importPath": "functions",
+        "description": "functions",
+        "peekOfCode": "def user_speech():\n    r = speech_rec.Recognizer()\n    while True:\n        with speech_rec.Microphone() as source:\n            write_text(\"Скажите что-нибудь:\")\n            r.adjust_for_ambient_noise(source, duration=1)     # удаление лишних шумов с фона 1 секунду\n            voice = r.listen(source)     # прослушивание микрофона\n        try:\n            text_speech = r.recognize_google(voice, language=\"ru-RU\").lower()    # перевод голоса в текст\n            write_text(\"Вы сказали: \" + text_speech)",
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "speech",
+        "kind": 2,
+        "importPath": "functions",
+        "description": "functions",
+        "peekOfCode": "def speech():\n    r = speech_rec.Recognizer()\n    with speech_rec.Microphone() as source:\n        write_text(\"Скажите что-нибудь:\")\n        r.adjust_for_ambient_noise(source, duration=1)  # удаление лишних шумов с фона 1 секунду\n        voice = r.listen(source)  # прослушивание микрофона\n    try:\n        t_speech = r.recognize_google(voice, language=\"ru-RU\").lower()  # перевод голоса в текст\n        write_text(\"Вы сказали: \" + t_speech)\n    except speech_rec.UnknownValueError:",
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "find_command",
+        "kind": 2,
+        "importPath": "functions",
+        "description": "functions",
+        "peekOfCode": "def find_command(cmd):\n    new_cmd = {'ncmd': '', 'num': 0}\n    for i, j in dict['cmds'].items():\n        for a in j:\n            comp = fuzz.ratio(cmd, a)\n            if comp > new_cmd['num']:\n                new_cmd['ncmd'] = i\n                new_cmd['num'] = comp\n    return new_cmd\n# команды",
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "do_command",
+        "kind": 2,
+        "importPath": "functions",
+        "description": "functions",
+        "peekOfCode": "def do_command(cmd, text_speech, same):\n    do_smth = 1\n    if cmd == 'browser' and same >= 50:\n        webbrowser.open('https://www.google.com/')\n    elif cmd == 'time' and same >= 50:\n        now = datetime.datetime.now()\n        tBot = threading.Thread(target=bot_talk(\"Сейчас \" + str(now.hour) + \":\" + str(now.minute)))\n        tBot.start()\n        tBot.join()\n    elif cmd == 'date' and same >= 50:",
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "do_translate",
+        "kind": 2,
+        "importPath": "functions",
+        "description": "functions",
+        "peekOfCode": "def do_translate(phrase):\n    t1 = threading.Thread(target=bot_talk(\"На какой язык желаете перевести?\"))\n    t1.start()\n    t1.join()\n    lang = speech()\n    translator = Translator()\n    result_lang = translator.translate(lang, src='russian', dest='english')\n    lang = result_lang.text.lower()\n    if lang == 'deutsch':\n        lang = 'german'",
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "get_html",
+        "kind": 2,
+        "importPath": "functions",
+        "description": "functions",
+        "peekOfCode": "def get_html(text_speech):\n    words = text_speech.split(' ')\n    fragment1 = 'погода'\n    fragment2 = 'какая'\n    fragment3 = 'город'\n    fragment4 = 'сейчас'\n    new_words = []\n    for word in words:\n        if fragment1 not in word and fragment2 not in word and fragment3 not in word and fragment4 not in word:\n            new_words.append(word)",
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "do_parse",
+        "kind": 2,
+        "importPath": "functions",
+        "description": "functions",
+        "peekOfCode": "def do_parse(html):\n    soup = BeautifulSoup(html, 'html.parser')\n    temp = \"В данный момент там \"\n    temp += soup.find('div', class_='temp fact__temp fact__temp_size_s').get_text().encode('utf-8').decode('utf-8',\n                                                                                                          'ignore')\n    temp += ' ' + soup.find('div', class_='link__condition day-anchor i-bem').get_text().encode('utf-8').decode('utf-8',\n                                                                                                          'ignore')\n    t1 = threading.Thread(target=bot_talk(temp))\n    t1.start()\n    t1.join()",
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "from_audio_to_text",
+        "kind": 2,
+        "importPath": "functions",
+        "description": "functions",
+        "peekOfCode": "def from_audio_to_text(file):\n    sample_audio = speech_rec.AudioFile(file)     # OSR_us_000_0018_8k     Nikolai_Alekseyev_Helsinki_forum\n    rec = speech_rec.Recognizer()\n    with sample_audio as audio_file:\n        rec.adjust_for_ambient_noise(audio_file, duration=1)\n        audio_content = rec.record(audio_file, duration=20)     # duration это длительность прослушиваемого фрагмента\n    text_file = rec.recognize_google(audio_content).lower()\n    return text_file",
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "dict",
+        "kind": 5,
+        "importPath": "functions",
+        "description": "functions",
+        "peekOfCode": "dict = {\n    \"cmds\": {\n        'browser': (\"открой браузер\", \"браузер\", \"включи браузер\"),\n        'time': (\"сколько времени\", \"который час\", \"время\", \"сколько сейчас времени\", \"скажи время\"),\n        'date': (\"какая сегодня дата\", \"какое сегодня число\", \"сегодняшняя дата\", \"назови дату\"),\n        'wiki': (\"что такое\", \"что есть\"),\n        'trans': (\"перевод\", \"переведи\", \"переведи фразу\"),\n        'weather': (\"какая погода город\", \"погода город\", \"погода\", \"какая сейчас погода\", \"какая сейчас погода город\"),\n        'stop': (\"стоп\", \"остановка\", \"остановись\", \"хватит\")\n    }",
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "window",
+        "kind": 5,
+        "importPath": "functions",
+        "description": "functions",
+        "peekOfCode": "window = None\ndef def_window(win):\n    global window\n    window = win\ndef write_text(text):\n    window.ui.voiceRecText.insertPlainText(text + '\\n')\ndef make_it_say(words):\n    engine = pyttsx3.init()\n    engine.say(words)\n    engine.runAndWait()",
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "MainWindow",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class MainWindow(QMainWindow):\n    def __init__(self):\n        QMainWindow.__init__(self)\n        self.ui = Ui_MainWindow()\n        self.ui.setupUi(self)\n        self.show()\n        self.setWindowTitle(\"VRec\")\n        self.setWindowIcon(QIcon(\"resources/trayIcon.png\"))\n        self.ui.voiceRecText.setReadOnly(True)\n        self.ui.fileText.setReadOnly(True)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "myappid",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "myappid = 'mycompany.myproduct.subproduct.version'\nctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)\nscriptDir = os.path.dirname(os.path.realpath(__file__))\ngifFile = ('C:/Users/olegd/Downloads/loading-78.gif')\nclass MainWindow(QMainWindow):\n    def __init__(self):\n        QMainWindow.__init__(self)\n        self.ui = Ui_MainWindow()\n        self.ui.setupUi(self)\n        self.show()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "scriptDir",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "scriptDir = os.path.dirname(os.path.realpath(__file__))\ngifFile = ('C:/Users/olegd/Downloads/loading-78.gif')\nclass MainWindow(QMainWindow):\n    def __init__(self):\n        QMainWindow.__init__(self)\n        self.ui = Ui_MainWindow()\n        self.ui.setupUi(self)\n        self.show()\n        self.setWindowTitle(\"VRec\")\n        self.setWindowIcon(QIcon(\"resources/trayIcon.png\"))",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "gifFile",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "gifFile = ('C:/Users/olegd/Downloads/loading-78.gif')\nclass MainWindow(QMainWindow):\n    def __init__(self):\n        QMainWindow.__init__(self)\n        self.ui = Ui_MainWindow()\n        self.ui.setupUi(self)\n        self.show()\n        self.setWindowTitle(\"VRec\")\n        self.setWindowIcon(QIcon(\"resources/trayIcon.png\"))\n        self.ui.voiceRecText.setReadOnly(True)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "Ui_MainWindow",
+        "kind": 6,
+        "importPath": "newgui",
+        "description": "newgui",
+        "peekOfCode": "class Ui_MainWindow(object):\n    def setupUi(self, MainWindow):\n        if not MainWindow.objectName():\n            MainWindow.setObjectName(u\"MainWindow\")\n        MainWindow.resize(600, 674)\n        sizePolicy = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.Preferred)\n        sizePolicy.setHorizontalStretch(0)\n        sizePolicy.setVerticalStretch(0)\n        sizePolicy.setHeightForWidth(MainWindow.sizePolicy().hasHeightForWidth())\n        MainWindow.setSizePolicy(sizePolicy)",
+        "detail": "newgui",
+        "documentation": {}
+    }
+]
